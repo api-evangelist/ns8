@@ -23,12 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ns8.png
 name: NS8
-description: NS8 was an e-commerce fraud-prevention and behavioral-analytics vendor (Protect / Score / TrueStats)
-  surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist network as a stub for
-  enrichment. As of the 2026-07-20 enrichment pass the company appears defunct with no reachable web or API
-  surface — ns8.com carries only AWS Route53 nameservers and a Google recovery-domain-verification TXT record
-  but resolves to no A record (apex, www, api, and developer subdomains all fail to resolve), it is not present
-  in the APIs.io catalog, and no OpenAPI, developer portal, SDK, or other API artifact could be discovered.
+description: NS8 was an e-commerce fraud-prevention and behavioral-analytics vendor (Protect / Score /
+  TrueStats) surfaced as a portfolio company of bloomberg-beta and added to the API Evangelist network
+  as a stub for enrichment. As of the 2026-07-20 enrichment pass the company appears defunct with no reachable
+  web or API surface — ns8.com carries only AWS Route53 nameservers and a Google recovery-domain-verification
+  TXT record but resolves to no A record (apex, www, api, and developer subdomains all fail to resolve),
+  it is not present in the APIs.io catalog, and no OpenAPI, developer portal, SDK, or other API artifact
+  could be discovered.
 url: https://raw.githubusercontent.com/api-evangelist/ns8/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Fraud Prevention
@@ -57,3 +58,4 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+x-status: defunct
